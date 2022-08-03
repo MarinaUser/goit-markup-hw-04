@@ -92,9 +92,6 @@ body {
 }
 
 
-
-
-
 .header-link {
     display: block;
     padding-top: 32px;
@@ -105,6 +102,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-title-color);
 }
+
+
+
 .header-link:hover,
 .header-link:focus {
     color: #2196F3;
@@ -312,7 +312,7 @@ body {
 }
 
 .team-soc-link {
-    /* background-color:#FFFFFF; */
+     background-color:#FFFFFF; 
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -330,9 +330,9 @@ body {
     background-color: var(--btn-link-color);
 }
 
-.team-soc-link:hover, .team-soc-icon, 
-.team-soc-link:focus, .team-soc-icon {
-    background-color: #fff;
+.team-soc-link:hover .team-soc-icon, 
+.team-soc-link:focus .team-soc-icon {
+    fill: #fff;
 }
 /*--------------Footer-------------*/
 .footer {
