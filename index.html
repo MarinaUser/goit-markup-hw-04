@@ -24,8 +24,14 @@
         </nav>
         
         <ul class="header-list list">
-            <li class="header-item-contact"><a href="mailto:info@devstudio.com" class="header-tel link">info@devstudio.com</a></li>
-            <li class="header-item-contact"><a href="tel:+380961111111" class="header-mail link">+38 096 111 11 11</a></li>      
+            <li class="header-item-contact"><a href="mailto:info@devstudio.com" class="header-mail link">
+                <svg class="header-mail-icon" width="16" height="12">
+                    <use href="./img/icons.svg#icon-mail"></use>
+                </svg>info@devstudio.com</a></li>
+            <li class="header-item-contact"><a href="tel:+380961111111" class="header-tel link">
+                <svg class="header-mail-icon" width="16" height="12">
+                    <use href="./img/icons.svg#icon-tel"></use>
+                </svg>+38 096 111 11 11</a></li>      
         </ul>
     </div>
         
@@ -48,18 +54,38 @@
             <ul class="benefits-list list">
                 <div class="info">
                 <li class="benefits-item">
+                    <div class="benefits-soc">
+                    <svg class="benefits-soc-icon" width="65,32" height="70">
+                        <use href="./img/icons.svg#icon-antenna"></use>
+                    </svg>
+                </div>
                     <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="benefits-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li class="benefits-item">
+                    <div class="benefits-soc">
+                        <svg class="benefits-soc-icon" width="66,96" height="70">
+                            <use href="./img/icons.svg#icon-clock"></use>
+                        </svg>
+                    </div>
                     <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="benefits-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li class="benefits-item">
+                    <div class="benefits-soc">
+                        <svg class="benefits-soc-icon" width="70" height="53,69">
+                            <use href="./img/icons.svg#icon-diagram"></use>
+                        </svg>
+                    </div>
                     <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
                     <p class="benefits-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li class="benefits-item">
+                    <div class="benefits-soc">
+                        <svg class="benefits-soc-icon" width="70" height="70">
+                            <use href="./img/icons.svg#icon-astronaut"></use>
+                        </svg>
+                    </div>
                     <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p class="benefits-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
@@ -223,11 +249,54 @@
             </ul>
             </div>
         </section>
+
+        <section class="clients section">
+            <div class="container">
+            
+            <h2 class="clients-title">Постійні клієнти</h2>
+            
+            <ul class="clients-list list">
+                <div class="clients-container">
+                <li class="clients-item"><a class="clients-link link" href="">
+                    <svg class="clients-icon" width="106" height="60">
+                        <use href="./img/icons.svg#icon-client1"></use>
+                    </svg>
+                </a></li>
+                <li class="clients-item"><a class="clients-link link" href="">
+                    <svg class="clients-icon" width="106" height="60">
+                        <use href="./img/icons.svg#icon-client2"></use>
+                    </svg>
+                </a></li>
+                <li class="clients-item"><a class="clients-link link" href="">
+                    <svg class="clients-icon" width="106" height="60">
+                        <use href="./img/icons.svg#icon-client3"></use>
+                    </svg>
+                </a></li>
+                <li class="clients-item"><a class="clients-link link" href="">
+                    <svg class="clients-icon" width="106" height="60">
+                        <use href="./img/icons.svg#icon-client4"></use>
+                    </svg>
+                </a></li>
+                <li class="clients-item"><a class="clients-link link" href="">
+                    <svg class="clients-icon" width="106" height="60">
+                        <use href="./img/icons.svg#icon-client5"></use>
+                    </svg>
+                </a></li>
+                <li class="clients-item"><a class="clients-link link" href="">
+                    <svg class="clients-icon" width="106" height="60">
+                        <use href="./img/icons.svg#icon-client6"></use>
+                    </svg>
+                </a></li>
+            </ul>
+            </div>
+            </div>
+        </section>
         
     </main>
 
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
+            <div class="footer-contacs">
         <a class="footer-logo link" href="/" lang="en"><span class="header-logo-blue">Web</span><span>Studio</span></a>
         <address class="footer-address">
             <p class="footer-map">м. Київ, пр-т Лесі Українки, 26</p> 
@@ -237,6 +306,33 @@
             </ul>
         </address>
         </div>
+        
+        <div class="footer-link">
+            <p class="footer-text">приєднуйтесь</p>
+            <ul class="footer-soc list">
+                <li class="footer-soc-item"><a class="footer-soc-link link" href="">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a></li>
+                <li class="footer-soc-item"><a class="footer-soc-link link" href="">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a></li>
+                <li class="footer-soc-item"><a class="footer-soc-link link" href="">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a></li>
+                <li class="footer-soc-item"><a class="footer-soc-link link" href="">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a></li>
+            </ul>
+        </div>
+    </div>
     </footer>
     
 </body>

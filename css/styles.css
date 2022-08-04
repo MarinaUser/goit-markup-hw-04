@@ -110,7 +110,11 @@ body {
     color: #2196F3;
 }
 
+.header-mail-icon {
+    fill: currentColor;
+    margin-right: 10px;
 
+}
 
 .header-tel,
 .header-mail {
@@ -134,10 +138,18 @@ body {
 }
 /*--------------Hero--------------*/
 .hero {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     background-color: #2F303A;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 
 
@@ -178,20 +190,36 @@ body {
 .info {
     display: flex;
     
-  
-    
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center; 
 }
 
 .benefits-item:not(:nth-child(n+4)){
         margin-right: 30px;
     }
 .benefits-item {
-    width:270px; 
-}
+    width:270px;
     
+}
 
-
-
+.benefits-soc {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.benefits-soc-icon {
+   display: block;
+    background-position: center;
+    
+}
 
 .visually-hidden {
     position: absolute;
@@ -312,7 +340,7 @@ body {
 }
 
 .team-soc-link {
-     background-color:#FFFFFF; 
+    background-color:#FFFFFF; 
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -334,6 +362,43 @@ body {
 .team-soc-link:focus .team-soc-icon {
     fill: #fff;
 }
+/*--------------Client-------------*/
+.clients-container {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-title {
+    font-size: 36px;
+    line-height: 1.17px;
+    margin-bottom: 50px;
+    text-align:center ;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    border-color:#2196F3;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--btn-link-color);
+}
+
 /*--------------Footer-------------*/
 .footer {
 
@@ -399,6 +464,50 @@ body {
 .footer-mail:focus {
     color: var(--btn-link-color);
 }
+
+.footer-text {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-soc {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-soc-link {
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-soc-icon {
+    fill: #fff;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--btn-link-color);
+}
+
+.footer-contacs {
+    margin-right: 70px;
+}
+
 
 /*page2*/
 /*-------------Portfolio btn-------------*/
