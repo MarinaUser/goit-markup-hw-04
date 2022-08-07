@@ -391,21 +391,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #AFB1B8;
+   
 }
 
 .clients-icon {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 .clients-link:hover,
 .clients-link:focus {
-    border-color:#2196F3;
+    border-color: var(--btn-link-color);
+    color: var(--btn-link-color);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
-    fill: var(--btn-link-color);
-}
+
 
 /*--------------Footer-------------*/
 .footer {
